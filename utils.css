@@ -1,0 +1,112 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+    .header {
+        height: 10vh;
+        padding: 0 1vw;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    .navbar {
+        gap: 2vw;
+        display: none;
+        
+    }
+    .container{
+        flex-direction: column;
+    }
+
+    .home-content {
+        width: 100%;
+        padding-top: 15vh;
+    }
+
+    .home-image{
+      padding: 2vh 2vh;
+      margin-bottom: 2vh; 
+    }
+    .home-image img{
+        height: 30vh;
+    }
+
+    .about {
+        flex-direction: column; 
+    }
+
+    .about-left img {
+        height: auto; 
+        width: 100%; 
+        margin: 0;
+        border-radius: 0; 
+        box-shadow: none;
+        display: none;
+    }
+
+    .about-right {
+        width: 100%;
+        margin-top: 5vh; 
+        margin-bottom: 10vh;
+    }
+    .boxes {
+        padding: 5vw;
+    }
+
+    .box {
+        width: 100%; 
+        margin: 10px 0; 
+        height: auto;
+    }
+
+    .box img {
+        height: auto; 
+        width: 100%; 
+        border-radius: 0;
+    }
+    .box p,
+    .section-2.box p {
+        font-size: 10px;
+        padding: 0 2vw; 
+        color: #fdf4f4; 
+    }
+    .skills p,.section-2 p{
+        font-size: 20px;
+    }
+
+    .return {
+        right: 1vw; 
+        bottom: 2vh;
+    }
+#web,#web img{
+  height: fit-content;
+  width: fit-content;
+}
+
+    .contact-details {
+        flex-direction: column; 
+        gap: 2vh;
+    }
+
+    textarea {
+        margin: 2vh auto; 
+        width: 80%; 
+        max-width: 90%; 
+    }
+
+    .cta {
+        padding: 15px 20px; 
+        padding-left: 30%; 
+    }
+
+    .cta:before {
+        left: 25%;
+    }
+}
